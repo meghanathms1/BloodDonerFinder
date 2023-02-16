@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <title>blood doantion </title>
+</head>
+
+<body>
+    <!--starting of landing page-->
+    <div class="landingpage">
+        <!--staring of navaiagation bar-->
+        <nav class="landingnav"> 
+            <!--nav-logo-->
+            <div class="logo">
+             <img src="real-red-blood-drop-clip-art-clkerm-vector-clip-0.png">
+            </div>
+            <!--END NAV-LOGO-->
+
+            <!--starting MENU BAR-->
+            <div class="menu">
+                <input type="checkbox" id="check">
+                <label for="check">
+                  <i class="fa fa-bars" id="btn"></i>
+                  <i class="fa fa-times" id="cancel"></i>
+                </label>
+              <ul class="ul">
+                <li><a href="#" class="home">Home</a></li>
+                <li><a href="#howit">How It's Works?</a></li>
+                <li><a href="adminlogin.html">College Login</a></li>
+                <li><a href="#footer">About Us</a></li>                                     
+              </ul>
+            </div>
+            <!--ending-MENU-BAR--> 
+        </nav>
+        <!--ending-navbar-->
+        <!--starting-MAIN of landing page-->
+        <main class="main">
+          <div class="box">
+            <h1>FIND DONOR</h1>
+             
+              <form action="donerlist.html" class="userform"  autocomplete="off">  
+                <!--select blood group-->
+                <div>            
+                <select name="bloodgroup" id="bloodgroup" >
+                  <option value="choose">Choose Blood Group </option>
+                  <option value="A+">A positive</option>
+                  <option value="A-">A negative</option>
+                  <option value="B+">B positive</option>
+                  <option value="B+">B negative</option>
+                  <option value="AB+">AB positive</option>
+                  <option value="AB-">AB negative</option>
+                  <option value="O+">O positive</option>
+                  <option value="O-">O negative</option>
+                </select>
+              </div>
+                <!--select hospital -->
+                <div class="wrapper">
+                  <div class="select-btn">
+                    <span>Select Your Hospital</span>
+                    <i class="uil uil-angle-down"></i>
+                  </div>
+                  <div class="content">
+                    <div class="search">
+                      <i class="uil uil-search"></i>
+                      <input type="text" placeholder="Search" >
+                    </div>
+                    <ul class="options"></ul>
+                  </div>
+                </div>
+
+                <button type="submit">FIND</button>
+             </form>
+          </div>
+        </main>
+        <!--end MAIN of landing page-->
+    </div>
+    <!--ending-landing-page-->
+
+   
+  <!--staring footer-->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+            <h4>DEVELOPED BY</h4>
+            <ul>
+              <p>MIRASH T</p>
+              <p>SOURAV RAJEEV</p>           
+              <P>MEGHANATH MS</P>
+            </ul>
+            <div class="footer-col">
+               <h4>CONATCT US</h4>
+               <ul class="social-links">
+                 <li><a href="https://www.linkedin.com/in/mi-rash-862a6925a"><i class="fa-brands fa-linkedin"></i> <p>Mirash  T</p></i></a> </li> 
+                 <li><a href="https://www.linkedin.com/in/sourav-rajeev-74266025a"><i class="fa-brands fa-linkedin"></i><p>Sourav  Rajeev</p></i></a></li>         
+                 <li><a href="https://www.linkedin.com/in/meghanathms"><i class="fa-brands fa-linkedin"></i> <p>Meghanath  MS</p></i></a></li>
+               </ul>  
+               <p class="copyright">&copy all rights reserved 2024</p>  
+          </div>
+      </div>
+    </div>
+  </footer>
+<!--end of Footer -->
+<script src="dropdpwm.js"></script>
+</body>
+</html>
+
+
